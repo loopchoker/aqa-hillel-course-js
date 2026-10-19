@@ -20,5 +20,3 @@ let cylinderLength = 20;
 
 
 console.log("Cylinder volume =", (pi*cylinderRadius**2*cylinderLength).toFixed(2));
-
-
