@@ -4,8 +4,8 @@ export class Book {
     #year;
 
     constructor(title, author, year) {
-        this.title = title;     // these call the setters below,
-        this.author = author;   // so validation runs on creation too
+        this.title = title; // these call the setters below,
+        this.author = author; // so validation runs on creation too
         this.year = year;
     }
 

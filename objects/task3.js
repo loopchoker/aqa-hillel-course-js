@@ -1,13 +1,13 @@
 const car1 = {
     brand: "Toyota",
     model: "FJ Cruiser",
-    year: 2009
+    year: 2009,
 };
 
 const car2 = {
     brand: "Honda",
     model: "Pilot",
-    owner: "Ben Gun"
+    owner: "Ben Gun",
 };
 
 const car3 = { ...car1, ...car2 };

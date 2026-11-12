@@ -15,22 +15,22 @@ const ebook1 = new EBook("Eneida", "Ivan Kotliarevskyi", 1798, "PDF");
 ebook1.printInfo();
 
 // --- 3. Getters and setters ---
-console.log(book2.title);          // getter
+console.log(book2.title); // getter
 
-book2.year = 1912;                 // setter, valid value
+book2.year = 1912; // setter, valid value
 console.log(book2.year);
 
 try {
-    book2.year = "long ago";       // setter, invalid value
+    book2.year = "long ago"; // setter, invalid value
 } catch (error) {
     console.log("Error:", error.message);
 }
 
-ebook1.fileFormat = "epub";        // setter, valid value
+ebook1.fileFormat = "epub"; // setter, valid value
 console.log(ebook1.fileFormat);
 
 try {
-    ebook1.fileFormat = "DOCX";    // setter, invalid value
+    ebook1.fileFormat = "DOCX"; // setter, invalid value
 } catch (error) {
     console.log("Error:", error.message);
 }
@@ -43,4 +43,4 @@ oldest.printInfo();
 // --- 5. Static method: Book → EBook ---
 const converted = EBook.fromBook(book3, "fb2");
 converted.printInfo();
-console.log(converted instanceof EBook);  // true
+console.log(converted instanceof EBook); // true
