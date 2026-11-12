@@ -1,4 +1,4 @@
-let thisIsString = 'string';
+let thisIsString = "string";
 let thisIsNumber = 12;
 let thisIsBoolean = true;
 let thisIsNull = null;
@@ -9,4 +9,3 @@ console.log(thisIsNumber);
 console.log(thisIsBoolean);
 console.log(thisIsNull);
 console.log(thisIsUndefined);
-

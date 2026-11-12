@@ -1,10 +1,10 @@
 function countdown(num) {
     if (num <= 0) {
-        return;            
+        return;
     }
 
     console.log(num);
-    countdown(num - 1);    
+    countdown(num - 1);
 }
 
 countdown(5);

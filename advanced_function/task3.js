@@ -11,7 +11,7 @@ function divide(numerator, denominator) {
 }
 
 try {
-    console.log(divide(10, 2));         
+    console.log(divide(10, 2));
 } catch (error) {
     console.log("Error:", error.message);
 } finally {
@@ -21,7 +21,7 @@ try {
 try {
     console.log(divide(10, 0));
 } catch (error) {
-    console.log("Error:", error.message);  
+    console.log("Error:", error.message);
 } finally {
     console.log("Робота завершена");
 }
@@ -29,7 +29,7 @@ try {
 try {
     console.log(divide("10", 2));
 } catch (error) {
-    console.log("Error:", error.message);  
+    console.log("Error:", error.message);
 } finally {
     console.log("Робота завершена");
 }
