@@ -21,7 +21,9 @@ export class EBook extends Book {
     }
 
     printInfo() {
-        console.log(`"${this.title}" by ${this.author}, published in ${this.year}, format: ${this.fileFormat}`);
+        console.log(
+            `"${this.title}" by ${this.author}, published in ${this.year}, format: ${this.fileFormat}`,
+        );
     }
 
     static fromBook(book, fileFormat) {

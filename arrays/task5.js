@@ -3,4 +3,4 @@ const secondArray = [4, 5, 6];
 
 const combinedArray = [...firstArray, ...secondArray];
 
-console.log(combinedArray); 
+console.log(combinedArray);
